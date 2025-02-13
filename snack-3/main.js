@@ -4,7 +4,7 @@
 let somma = 0;
 
 for (let i = 1; i <= 10; i++) {
-  const number = parseInt(prompt("Type a number"));
+  const number = parseFloat(prompt("Type a number"));
   console.log(number);
   somma += number;
 }
