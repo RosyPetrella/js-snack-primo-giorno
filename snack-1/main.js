@@ -6,6 +6,8 @@ const secondNumber = prompt("Insert second number");
 
 if (firstNumber > secondNumber) {
   console.log("Il numero maggiore è " + firstNumber);
+} else if (secondNumber === firstNumber) {
+  console.log("I numeri sono uguali");
 } else {
   console.log("Il numero maggiore è " + secondNumber);
 }
